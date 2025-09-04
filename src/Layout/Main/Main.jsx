@@ -7,7 +7,10 @@ const Main = () => {
   return <div>
     <div>
     <NavBar></NavBar>
+    <div className="h-screen">
+
     <Outlet></Outlet>
+    </div>
     <Footer></Footer>
 
     </div>
